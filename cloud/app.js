@@ -19,7 +19,7 @@ app.use(express.bodyParser());    // set middleware
 
 app.get('/', function(req, res) {
     counter("pageviews", 1, function(count){
-        res.render('hello', {pageviews:count});
+        res.render('home', {pageviews:count});
     });
 });
 

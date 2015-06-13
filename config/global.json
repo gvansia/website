@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "_default": {
+            "link": "raj"
+        }, 
+        "raj": {
+            "applicationId": "83aicdJHcXiSfn9vzzVWAeqMkmIqfoUJVreaNTob", 
+            "masterKey": "XF1Clgn8Zr3KtncEPKXxr92vsTgOHWdf6lEI3muC"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.4.2"
+    }
+}
