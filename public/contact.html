@@ -28,11 +28,11 @@
         <link rel="stylesheet" href="css/owl.transitions.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="bower_components/bootstrapValidator/dist/css/bootstrapValidator.min.css"/>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         
     </head>
     <body>
-
 
         <!--<div id="preloader">-->
         <!--    <div id="status">&nbsp;</div>-->
@@ -104,6 +104,40 @@
         </nav><br/><br><br/>
         
 <div id="response"></div>
+<!--button class="btn btn-primary" data-toggle="modal" data-target="#loginModal">Login</button>
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Login</h4>
+            </div>
+
+            <div class="modal-body">-->
+                <!-- The form is placed inside the body of modal -->
+                <!--form id="loginForm" method="post" class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Username</label>
+                        <div class="col-md-5">
+                            <input type="text" class="form-control" name="username" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Password</label>
+                        <div class="col-md-5">
+                            <input type="password" class="form-control" name="password" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-5 col-md-offset-3">
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>-->
 
         <div class="content-area">
             <div class="container">
@@ -151,11 +185,11 @@
 			<!--		</div>-->
 			<!--	</div>-->
 			<!--</div>-->
-			<div class="row">
+			<div class="hide">
 				<div class="col-md-12">
 					<div class="form-group">
 						<label for="resume" class="control-label">Resume:</label>
-						<input type="file" id="profilePhotoFileUpload" class="form-control" maxlength="60" name="file" value="" placeholder="Resume">
+						<input type="file" id="profilePhotoFileUpload" class="form-control" maxlength="60" name="file" value="0" placeholder="Resume">
 			
 				
 					</div>
@@ -205,16 +239,16 @@
 </div>            </div>
           </div>
                   
-  </div>
+  </div><br></br><br></br><br></br><br></br>
         <div class="footer-area">
             <div class="container">
                 <div class="row footer">
-                    <div class="col-md-6">
+                    <!--div class="col-md-6">
                         <div class="single-footer">
                             <h2>InvenioForce</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati architecto quaerat facere blanditiis tempora sequi nulla accusamus, possimus cum necessitatibus suscipit quia autem mollitia, similique quisquam molestias. Vel unde, blanditiis.</p>
                         </div>
-                    </div>
+                    </div>-->
                     <!--<div class="col-md-4">-->
                     <!--    <div class="single-footer">-->
                     <!--        <h4>Twitter update</h4>-->
@@ -230,7 +264,22 @@
                     <!--        </div>-->
                     <!--    </div>-->
                     <!--</div>-->
-                    <div class="col-md-6">
+                    <div class="col-left-5">
+                        <div class="single-footer">
+                            <div class="footer-links">
+                                <ul class="list-unstyled">
+                                    <li><a href="home.html">Home</a><span style="padding-left:38px;"></span>
+                                    <a href="about.html">About Us</a><span style="padding-left:38px;"></span>
+                                    <a href="canidates.html">Find a Job!</a><span style="padding-left:38px;"></span>
+                                    <a href="clients.html">Hiring?</a><span style="padding-left:38px;"></span>
+                                    <a href="contact.html">Contact Us</a></li>
+                                    <li><small>© 2015 Invenio Software Solutions LLC.</small></li>
+                                     <!--<li><a href="">Customers Testimonials</a></li>-->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--div class="col-md-6">
                         <div class="single-footer">
                             <h4>Useful lnks</h4>
                             <div class="footer-links">
@@ -240,14 +289,14 @@
                                     <li><a href="services.html" class="active">Services</a></li>
                                     <li><a href="clients.html">Clients</a></li>
                                     <li><a href="canidates.html">Canidates</a></li>
-                                    <!--<li><a href="">Customers Testimonials</a></li>-->
+                                    <<li><a href="">Customers Testimonials</a></li>
                                     <li><a href="contact.html">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
 		
 		
@@ -263,6 +312,92 @@
          <script src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="js/emailer.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/wow.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/emailer.js"></script>
+        <script src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
+         <script src="js/date.js"></script>
+         
+
+<!--<script type="text/javascript" src="../jquery/jquery-1.10.2.min.js"></script>-->
+<!--<script type="text/javascript" src="/path/to/bootstrap/js/bootstrap.min.js"></script>-->
+
+<script type="text/javascript" src="bower_components/bootstrapValidator/dist/js/bootstrapValidator.min.js"></script>
+
+         
+         <script>
+$(document).ready(function() {
+    $('#loginForm').bootstrapValidator({
+        message: 'This value is not valid',
+        feedbackIcons: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        fields: {
+            username: {
+                validators: {
+                    notEmpty: {
+                        message: 'The username is required'
+                    }
+                }
+            },
+            name: {
+                validators: {
+                    notEmpty: {
+                        message: 'The username is required'
+                    }
+                }
+            },
+            password: {
+                validators: {
+                    notEmpty: {
+                        message: 'The password is required'
+                    }
+                }
+            }
+        }
+    });
+     $('#commentForm').bootstrapValidator({
+        message: 'This value is not valid',
+        feedbackIcons: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        fields: {
+           
+            name: {
+                validators: {
+                    notEmpty: {
+                        message: 'Your name is required'
+                    }
+                }
+            },
+            email: {
+                validators: {
+                    notEmpty: {
+                        message: 'Your email is required'
+                    }
+                }
+            },
+            comments: {
+                validators: {
+                    notEmpty: {
+                        message: 'Ask us anything!'
+                    }
+                }
+            }
+        }
+    });
+});
+</script>
   
     </body>
     

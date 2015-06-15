@@ -17,6 +17,7 @@ Parse.Cloud.beforeSave("emailObject", function(request, response) {
         "Name: "+request.object.get("name") + "\n\n"+
         "Email: "+request.object.get("email") + "\n\n"+
          "file"+ request.object.get("photo.jpg")+ "\n\n"+
+         "Company: "+request.object.get("company") + "\n\n"+
         "Message: \n"+request.object.get("comments");
        
 

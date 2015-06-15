@@ -28,6 +28,7 @@
         <link rel="stylesheet" href="css/owl.transitions.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="bower_components/bootstrapValidator/dist/css/bootstrapValidator.min.css"/>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         
     </head>
@@ -130,7 +131,7 @@
                             <form action="" class=" form-inline">
                                 <div class="form-group">
                                     
-                                    <input type="text" class="form-control" placeholder="email" id="email">
+                                    <input type="text" class="form-control" placeholder="email" id="mail">
                                 </div>
                                
                                 <!--<div class="form-group">-->
@@ -150,8 +151,8 @@
                                 <!--        <option>App Design</option>-->
                                 <!--    </select>-->
                                 <!--</div>-->
-                                <!--<input type="submit" class="btn" value="Get Hired!">-->
-                <input type="btnn" class="btn" href="#" data-toggle="modal" data-target="#PostCommentsModal" value="Get Hired!" readonly>
+                                <!--<input type="submit" class="btn" value="Hire Me!">-->
+                <input type="btnn" class="btn" href="#" data-toggle="modal" data-target="#PostCommentsModal" value="Hire Me!" readonly>
 
                             </form>
                         </div>
@@ -160,6 +161,26 @@
                 </div>
             </div>
         </div>
+        <div class="modal" id="PostModal" tabindex="-1" role="dialog" aria-labelledby="helpModalLabel"     aria-hidden="true">
+    
+    
+            <div class="modal-dialog">      
+         <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" 
+                        data-dismiss="modal">
+                            <span aria-hidden="true">&times;
+                            </span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="myModalLabel">
+                            Exciting IOT jobs await you!</h4>
+                    </div>
+
+                 
+               
+            </div>
+        </div>
+        </div>
+
 
 <div class="modal fade" id="PostCommentsModal" tabindex="-1" 
 role="dialog" aria-labelledby="helpModalLabel"     aria-hidden="true">
@@ -186,7 +207,7 @@ Close</span></button>
 						<div class="row">
 				<div class="col-md-12">
 					<div class="form-group">
-						<label for="name">Name</label>
+						<label for="name" class="control-label">Name</label>
 						<input type="text" class="form-control" id="name" name="name" placeholder="First Name">
 					</div>
 				</div>
@@ -196,7 +217,7 @@ Close</span></button>
 				<div class="col-md-12">
 					<div class="form-group">
 						<label for="email" class="control-label">Email:</label>
-						<input type="email" class="form-control" maxlength="128" name="email" id="mail" value="mail" placeholder="Your Email">
+						<input type="email" class="form-control" maxlength="128" name="email" id="email"  placeholder="Your Email">
 					</div>
 				</div>
 			</div>
@@ -227,20 +248,29 @@ Close</span></button>
 					</div>
 				</div>
 			</div>
+				<div class="hide">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="company" class="control-label">Company</label>
+						<input type="text" class="form-control" name="company" id="company" value="Canidate"  placeholder="Invenio Force">
+					</div>
+				</div>
+			</div>
         <p>
         </p>
+        <div class='actions'>
         <div class="row text-left">
 				<div class="col-md-12">
-					<button type="submit" name="sendmessage" data-loading-text="Sending..."  class="btn btn-warning btn-lg" id="form_submit">Send</button><br/><br>
+					<button type="submit" name="sendmessage" data-loading-text="Sending..."  class="btn btn-warning btn-lg" id="form_submit" disabled="disabled">Send</button><br/><br>
 			
 				</div>
-				
+				</div>
 				
 				<div class="row text-left">
 				 <h1>   </h1>
 				</div>
 			</div>
-			
+			<div id="successresume"></div>
                     </div>
                     </form>
                     <!--<div class="modal-footer">-->
@@ -263,33 +293,36 @@ Close</span></button>
         <div class="content-area">
             <div class="container">
                 <div class="row page-title text-center wow zoomInDown" data-wow-delay="0.8s">
-                    <h5>Our Job search Process</h5>
+                    <!--h3>Our Job search Process</h3>-->
                     <h2>Streamline your IoT job Search</h2>
-                    <h2>Find IoT jobs tailored to your need</h2>
-                    <h2>Find your IoT job in record time</h2>
-                    <h2>Let's ride the next wave of innovation with ease</h2>
-                    <p>We belive in finding candidate's passion and matching unique technical and soft skills to seek perfect IoT opporunities.</p>
+                    <h4>Apply Once and we will get in touch with companies working on Exciting IOT Projects.</h4>
+                    <!--h2>Find your IoT job in record time</h2>
+                    <h2>Let's ride the next wave of innovation with ease</h2>-->
+                    <h4>We belive in finding candidate's passion and matching unique technical and soft skills to seek perfect IoT opporunities.</h4>
+                    <br></br>
                 </div>
                 <div class="row how-it-work text-center">
                     <div class="col-md-4">
                         <div >
                             <img src="img/how-work1.png" alt="">
-                            <h3>Search for best Candidates</h3>
-                            <p>Create a marketing plan to find  best results by researching job opportunities.</p>
+                            <h3>Send Us Your Resume</h3>
+                            <p>Send us your resume and areas of your interest and we will look at Git Hub Page and Projects you worked on.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div >
                             <img src="img/how-work2.png" alt="">
-                            <h3>Seek best Workplace</h3>
-                            <p>Colloborate with clients and get in depth insight into talent requirement and match right candidate with their passion for the job.</p>
+                            <h3>Receive Top Jobs</h3>
+                            <p>Our talent experts will get you in touch with companies working on IoT projects who are looking for candidates like you.Colloborate with clients and get in depth insight into talent requirement and match right candidate with their passion for the job.</p>
+                           
+                            
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div >
                             <img src="img/how-work3.png" alt="">
-                            <h3>Client &amp Candidate Matchmaker</h3>
-                            <p>Match candidate and job opportunities, inspire  results.</p>
+                            <h3>Get a Job Offer</h3>
+                            <p>Pick the best offer and Start working on Exciting projects.</p>
                         </div>
                     </div>
                 </div>
@@ -493,8 +526,34 @@ Close</span></button>
 <div class="row page-title text-center wow zoomInDown" data-wow-delay="0.8s">
                     <!--<h5>Our Job search Process</h5>-->
                     <h2>Areas we speicalize in</h2>
-                    <p>We belive in finding candidate's passion and matching unique technical experties to seek perfect IT opporunities.</p>
-                </div>
+                        <!--p>We belive in finding candidate's passion and matching unique technical experties to seek perfect IT opporunities.</p>-->
+</div>
+                    <div class="container">
+                        <div class="row">
+                             <div class="col-md-8">
+                                 <ul class="list-unstyled">
+                    
+                                    <h4>Software Engineers<span style="padding-left:38px;"></span></h4>
+                                    <h4>Hardware Engineers</h4>
+                                    <h4>Network Engineers </h4>
+                                    <h4>Security Engineers</h4></li>
+                                    </ul>
+                                    <!--h4>Software Engineers</h4>
+                                    <h4>Hardware Engineers</h4>
+                                    <h4>Network Engineers </h4>
+                                    <h4>Security Engineers</h4>-->
+                            </div>
+                            <div class="col-md-9">                                 
+                                    <h4>UX/UI Designers    </h4>
+                                    <h4>Data Scientists    </h4>
+                                    <h4>Solutions Architects</h4>
+                                    <h4>Product Managers    </h4>
+                            </div>    
+                                    <!--<li><a href="">Customers Testimonials</a></li>-->
+                        </div>
+                    </div>
+                
+                               
             <!--<div class="container">-->
             <!--    <div class="row page-title text-center  wow bounce"  data-wow-delay=".7s">-->
             <!--        <h2>The Force effect</h2>-->
@@ -606,7 +665,46 @@ Close</span></button>
         <script src="js/emailer.js"></script>
         <script src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
          <script src="js/date.js"></script>
-      
+      <script type="text/javascript" src="bower_components/bootstrapValidator/dist/js/bootstrapValidator.min.js"></script>
+
+         
+         <script>
+        
+$(document).ready(function() {
+     $('#commentForm').bootstrapValidator({
+        message: 'This value is not valid',
+        feedbackIcons: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        fields: {
+           
+            name: {
+               
+                validators: {
+                    
+                    notEmpty: {
+                        message: 'Your name is required'
+                    }
+                }
+            },
+            email: {
+                validators: {
+                    notEmpty: {
+                        message: 'Your email is required'
+                    }
+                }
+            },
+            
+        }
+    })
+   
+
+});
+
+
+</script>
         
     </body>
 </html>
