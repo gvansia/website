@@ -22,7 +22,8 @@ $(document).ready(function() {
 		data.email = $("#email").val();
 		data.comments = $("#comments").val();
 		
- 		
+ 		if (data.name.length > 0 && data.company.length > 0 )
+ 		{
 		var comment = new emailObject();
 		
 		var fileUploadControl = $("#profilePhotoFileUpload")[0];
@@ -84,6 +85,9 @@ $('#PostModalCompany').modal('show');
 				console.dir(e);
 				$('#response').html('Error! Email unsuccessful!').addClass('error').fadeIn('fast');
 			}
+		
 		});
+ 		}
 	});
+	
 });
