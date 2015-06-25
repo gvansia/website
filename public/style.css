@@ -132,7 +132,7 @@ body{
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 20px;
-  text-transform: uppercase;
+ 
   color: #00b9ef
 }
 
@@ -220,7 +220,7 @@ body{
   font-size: 25px;
   font-weight: 800;
   margin-top: 5px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .page-title h2 span{
 	color: #00ADEF
