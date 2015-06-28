@@ -1,9 +1,9 @@
 {
     "applications": {
         "_default": {
-            "link": "rajnet"
+            "link": "raj"
         }, 
-        "rajnet": {
+        "raj": {
             "applicationId": "2SeliP87wOuNoV5jzIPFpgGtS08dvVvnYwNSjKGR", 
             "masterKey": "r8YeJzqwgvl8414WoV2gnhQcklkvZGxfZsQXP92Y"
         }

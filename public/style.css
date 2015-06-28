@@ -98,7 +98,7 @@ body{
 }
 .navbar{
 	margin-bottom: 0px;
-	min-height: 10px;
+	min-height: 70px;
 }
 .navbar-default {
   background-image: none;
@@ -113,7 +113,7 @@ body{
 
 .slider-area{
 	position: relative;
-	height: 630px
+	height: 530px
 }
 #bg-slider .item img{
 	width: 100%;

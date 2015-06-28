@@ -1,0 +1,130 @@
+    1  bash ./parse_installer.sh
+    2  ./parse develop rajparseapp
+    3  ./parse develop rajapp
+    4  ./parse develop raj
+    5  git init
+    6  git commit - m "first commit"
+    7  git commit -m "first commit"
+    8  git remote add originhttps://github.com/gvansia/site.git
+    9  git push -u origin master
+   10  git init
+   11  git commit -m "first commit"
+   12  set -o vi
+   13  git remote add originhttps://github.com/gvansia/site.git
+   14  git push -u origin master
+   15  gmvansia@gmail.com
+   16  git push -u origin master
+   17  git push
+   18  git push -u origin master
+   19  git remote add origin https://github.com/gvansia/site.git
+   20  git push -u origin master
+   21  git remote add originhttps://github.com/gvansia/website.git
+   22  git push -u origin master
+   23  git remote -v
+   24  git remote add origin https://github.com/gvansia/site.git
+   25  git remote add origin https://github.com/gvansia/website.git
+   26  git remote add upstream https://github.com/gvansia/website.git
+   27  git remote -v
+   28  git push -u origin master
+   29  git push -u upstream
+   30  git remote add upstream https://github.com/gvansia/site.git
+   31  git push -u upstream
+   32  git commit - m "first commit"
+   33  git init
+   34  git commit - m "first commit"
+   35  git commit -m "first commit"
+   36  git add 
+   37  git -a
+   38  git add
+   39  git add .
+   40  git commit -a
+   41  git commit -a " version 1"
+   42  git commit -m " version 1"
+   43  git push -u upstream
+   44  ./parse develop
+   45  ./parse develop [raj]
+   46  ./parse develop raj
+   47  bower install bootstrapValidator
+   48  git commit -a
+   49  git commit
+   50  set -o vi
+   51  git commit -m " version 2"
+   52  git commit -m "version 2"
+   53  git add 
+   54  git push -u upstream
+   55  git init
+   56  git commit -m "version 2"
+   57  git help
+   58  git status
+   59  git commit -a
+   60  git commit -a "version2"
+   61  git commit -add "version2"
+   62  git commit --all
+   63  git commit --all "version2"
+   64  git commit -all "version2"
+   65  git commit --all "version2"
+   66  git --branch
+   67  git -branch
+   68  git origin
+   69  git --help
+   70  git status
+   71  git add
+   72  git add .
+   73  git status
+   74  git commit -a "version2"
+   75  git commit -u "version2"
+   76  git push -u upstream
+   77  git add . "version2"
+   78  git add . 
+   79  git commit -u "version2
+
+"
+   80  git commit -u "version2
+
+"
+   81  git status
+   82  git commit "version2"
+   83  git commit -u "version2"
+   84  git commit -u "version1"
+   85  git commit -u 
+   86  git commit -u "version"
+   87  git commit
+   88  git commit "version2"
+   89  man git
+   90  git diff
+   91  git diff version1 
+   92  ls
+   93  ls -ltr
+   94  cd public
+   95  ls
+   96  vi contact.html
+   97  cd
+   98  pwd
+   99  git diff version1 
+  100  git commit
+  101  git status
+  102  cd workspace
+  103  git status
+  104  git checkout
+  105  got commit -a "version2"
+  106  git commit -a "version2"
+  107  git commit  "version2"
+  108  git commit  "version1"
+  109  git commit  ""
+  110  git commit -m "version2"
+  111  git push -u upstream
+  112  git git add.
+  113  git add
+  114  git add .
+  115  git commit -m "Version3 updated content"
+  116  git push -u upstream
+  117  git add.
+  118  git add .
+  119  git status
+  120  git stage
+  121  git add .
+  122  git commit -m "update css"
+  123* git push remote 
+  124  git push -u upstream
+  125  history
+  126  history >gitcommands
