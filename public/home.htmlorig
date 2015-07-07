@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Invenioforce" Site</title>
+        <meta name="description" content="Invenio Software Solutions site">
+        <meta name="author" content="Gita">
+        <meta name="keyword" content="html, css, bootstrap, job-board">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/fontello.css">
+        <link rel="stylesheet" href="css/animate.css">        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/owl.transitions.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="bower_components/bootstrapValidator/dist/css/bootstrapValidator.min.css"/>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
+    </head>
+    <body>
+
+
+        <!--<div id="preloader">-->
+        <!--    <div id="status">&nbsp;</div>-->
+        <!--</div>-->
+        <!-- Body content -->
+		
+        <nav class="navbar navbar-default navbar-fixed-top">
+        <!--<div class="header-connect">-->
+        <!--    <div class="container">-->
+        <!--        <div class="row">-->
+        <!--            <div class="col-md-5 col-sm-8 col-xs-8">-->
+        <!--                <div class="header-half header-call">-->
+        <!--                    <p>-->
+        <!--                        <span><i class="icon-cloud"></i>+1 Phone Here</span>-->
+        <!--                        <span><i class="icon-mail"></i>info@invenioforce.com</span>-->
+        <!--                    </p>-->
+        <!--                </div>-->
+                    <!--</div>-->
+                    <!--<div class="col-md-2 col-md-offset-5  col-sm-3 col-sm-offset-1  col-xs-3  col-xs-offset-1">-->
+                    <!--    <div class="header-half header-social">-->
+                    <!--        <ul class="list-inline">-->
+                    <!--            <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+                    <!--            <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                    <!--            <li><a href="#"><i class="fa fa-vine"></i></a></li>-->
+                    <!--            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
+                    <!--            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
+                    <!--            <li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
+                    <!--        </ul>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</div>-->
+<!--style>
+    .logo img{
+        width: 263px;
+	height: 40px;
+    }
+</style>-->
+
+         <nav class="navbar navbar-default">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand logo" href="home.html">
+                  <img src="img/inveniologov2.png"> 
+              </a>
+                 
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <!--<div class="button navbar-right">-->
+              <!--    <button class="navbar-btn nav-button wow bounceInRight login" data-wow-delay="0.8s">Login</button>-->
+              <!--    <button class="navbar-btn nav-button wow fadeInRight" data-wow-delay="0.6s">Sign up</button>-->
+              <!--</div>-->
+              <ul class="main-nav nav navbar-nav navbar-right">
+                <li ><a class="active" href=home.html>Home</a></li>
+
+                <!--<li ><a href=services.html>Services</a></li>-->
+                <!--li ><a >span class="active glyphicon glyphicon-home"></span> Home-->
+                <li ><a href=about.html>About Us</a></li>
+                <li ><a href=canidates.html>Find a Job!</a></li>
+                <li ><a href=clients.html>Hiring?</a></li>
+                <!--<li class="wow fadeInDown" data-wow-delay="0.4s"><a href="#">Blog</a></li>-->
+                <li ><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        </nav>
+     
+
+        <div class="slider-area">
+            <div class="slider">
+                <div>
+                    
+                 <!--div class="item"><img src="img/inveniocover.PNG" alt=""></div>-->
+                 <div class="item"><img src="img/Inveniocover2.PNG" alt=""></div>
+                  <!--div class="item"><img src="https://gogohire.com/images/banner/banner_lap_sdk.jpg" alt="Mirror Edge"></div>
+                  
+                  <!--<div class="item"><img src="http://www.thelions.com/images/splash_home.jpg" alt="The Last of us"></div>-->
+                  <!--div class="item"><img src="img/slider-image-1.jpg" alt="GTA V"></div-->
+                 <!--div class="item"><img src="http://static.dreamstime.com/t/internet-things-modern-connected-world-illustration-as-icons-flat-design-globe-various-connections-devices-such-50381107.jpg" alt="The Last of us"></div>-->
+                </div>
+            </div>
+            <div class="container slider-content">
+                <div class="row">
+                    <div class="col-md-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+                    <!--div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">-->
+                        <h2>Find Your Next IoT Job</h2>
+                        <!--h3>Your IoT career awaits you!</h3>-->
+                        <!--h3>Find IoT jobs tailored to your need</h3-->
+                        <p>Help usher in the next wave of innovation.<br>
+                        Get in touch with companies that are connecting the important things in our lives.<br>
+                        Get in touch with companies that are creating solutions for endless possibilities and connecting things in our lives.<br>
+                        Get in touch with companies that are bringing endless possibilities and connecting things in our lives.</p>
+                        <div >
+                        
+                            <form action="" class=" form-inline">
+                                <div class="form-group">
+                                    
+                                    <input type="text" class="form-control" placeholder="email" id="mail">
+                                </div>
+                               
+                                
+                <input type="btnn" class="btn" href="#" data-toggle="modal" data-target="#PostCommentsModal" value="Hire Me!" readonly>
+
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="PostModal" tabindex="-1" role="dialog" aria-labelledby="helpModalLabel"     aria-hidden="true">
+    
+    
+            <div class="modal-dialog">      
+         <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" 
+                        data-dismiss="modal">
+                            <span aria-hidden="true">&times;
+                            </span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="myModalLabel">
+                            Exciting IoT jobs await you!</h4>
+                    </div>
+            </div>
+        </div>
+        </div>
+
+
+<div class="modal fade" id="PostCommentsModal" tabindex="-1" 
+role="dialog" aria-labelledby="helpModalLabel"     aria-hidden="true">
+    
+    
+            <div class="modal-dialog">      
+         <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" 
+                        data-dismiss="modal">
+                            <span aria-hidden="true">&times;
+                            </span><span class="sr-only">
+Close</span></button>
+                        <h4 class="modal-title" id="myModalLabel">
+                            Exciting IoT jobs await you!</h4>
+                    </div>
+  <div class="modal-body">
+            <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+	<div class="col-lg-7 centered">
+		<div class="feedback hide"></div>
+		<form id="commentForm" >
+						<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="name" class="control-label">Name</label>
+						<input type="text" class="form-control" id="name" name="name" placeholder="First Name">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			    
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="email" class="control-label">Email:</label>
+						<input type="email" class="form-control" maxlength="128" name="email" id="email"  placeholder="Your Email">
+					</div>
+				</div>
+			</div>
+	
+		
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="resume" class="control-label">Resume:</label>
+						<input type="file" id="profilePhotoFileUpload" class="form-control" maxlength="60" name="file" value="" placeholder="Resume">
+			
+				
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="message" class="control-label">Message:</label>
+						<textarea name="comments" id="comments" class="form-control" rows="5"></textarea>
+					</div>
+				</div>
+			</div>
+				<div class="hide">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label for="company" class="control-label">Company</label>
+						<input type="text" class="form-control" name="company" id="company" value="Canidate"  placeholder="Invenio Force">
+					</div>
+				</div>
+			</div>
+        <div class='actions'>
+        <div class="row text-left">
+				<div class="col-md-12">
+					<button type="submit" name="sendmessage" data-loading-text="Sending..."  class="btn btn-warning btn-lg" id="form_submit" disabled="disabled">Send</button><br/><br>
+				</div>
+				</div> 
+				<div class="row text-left">
+				 <h1>   </h1>
+				</div>
+			</div>
+			<div id="successresume"></div>
+                    </div>
+                    </form>
+                    <!--<div class="modal-footer">-->
+                    <!--    <button type="button" -->
+                    <!--    class="btn btn-default" data-dismiss="modal">-->
+                    <!--        Close</button>-->
+                    <!--</div>-->
+                    </div>
+        </div>
+      </div>
+      
+      </div>
+      </div>
+      </div>
+</div>
+      </div>
+       </div>
+        <div class="content-area">
+            <div class="container">
+                <div class="row page-title text-center wow " data-wow-delay="0.8s">
+                    <!--div class="col-md-12 col-md-offset-2 col-md-12 col-md-offset-1 col-md-10">-->
+                    <!--div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">-->
+                    <!--div class="col-md-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">-->
+                    <!--h3>Our Job search Process</h3>-->
+                    <h2>Streamline Your IoT Job Search</h2>
+                    <h4>Apply Once and get in touch with companies working on exciting IoT projects.</h4>
+                    <!--h2>Find your IoT job in record time</h2>
+                    <h2>Let's ride the next wave of innovation with ease</h2>-->
+                    <h4>Join a talent network dedicated to IoT.</h4>
+                </div>
+                
+                <div class="row how-it-work text-center">
+                    <div class="col-md-4">
+                        <div >
+                            <img src="img/free2.png" alt="">
+                            <h3>Send Us Your Resume</h3>
+                            <p>Send us your resume and your areas of<br>interest. We will review your Git Hub &nbsp &nbsp &nbsp<br>page and projects that you worked on.&nbsp &nbsp</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div >
+                            <img src="img/free3.png" alt="">
+                            <!--h3>Receive Top Jobs</h3>-->
+                            <h3>Connect with Top Companies</h3>
+                            <p>Our talent experts will get you in touch &nbsp<br>with companies working on IoT projects <br>who are looking for candidates like you.</p>
+      
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div >
+                            <img src="img/free1.png" alt="">
+                            <h3>Get a Job Offer</h3>
+                            <p>Pick the best job offer and start working<br>for innovative companies. &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+            <hr>
+<div class="row page-title text-center wow ">
+                    <!--<h5>Our Job search Process</h5>-->
+                    <h2>Areas we specialize in</h2>
+                        <!--p>We belive in finding candidate's passion and matching unique technical experties to seek perfect IT opporunities.</p>-->
+</div>
+                <div class=container>
+                        <div class="row">
+                             <div class="col-md-6 col-md-offset-3"> 
+                                <div class="col-md-6 ">     
+                                 <h3>UX/UI Designers    </h3>
+                                    <h3>Data Scientists   </h3>
+                                    <h3>Solution Architects</h3>
+                                    <h3>Product Managers   </h3>
+                                 
+                            </div>
+                            <div class="col-md-6 ">
+                                   <h3>Software Developers</h3>
+                                    <h3>Hardware Engineers</h3>
+                                    <h3>Network Engineers </h3>
+                                    <h3>Security Engineers</h3>
+                                
+                                   
+                            </div>    
+                            </div>
+                            <!--<li><a href="">Customers Testimonials</a></li>-->
+                        </div>
+                    </div>
+                <br><br><br></br>
+                               
+            <!--<div class="container">-->
+            <!--    <div class="row page-title text-center  wow bounce"  data-wow-delay=".7s">-->
+            <!--        <h2>The Force effect</h2>-->
+            <!--        <h5>How we add value to your career</h5>-->
+            <!--    </div>-->
+            <!--    <div class="row testimonial">-->
+            <!--        <div class="col-md-12">-->
+            <!--            <div id="testimonial-slider">-->
+                            <!--div class="item">
+                                <div class="client-text">                                
+                                    <p>Jobify offer an amazing service and I couldn’t be happier! They 
+                                    are dedicated to helping recruiters find great candidates, wonderful service!</p>
+                                    <h4><strong>Gita, </strong><i>Web Designer</i></h4>
+                                </div>
+                                <div class="client-face wow fadeInRight" data-wow-delay=".9s"> 
+                                    <img src="img/client-face1.png" alt="">
+                                </div>
+                            </div-->
+            <!--                <div class="item">-->
+            <!--                    <div class="client-text">                                -->
+            <!--                        <p>Invenio aims to offer excellent service throught the placement process. We -->
+            <!--                        are dedicated to help recruiters find great candidates, wonderful service!</p>-->
+            <!--                        <h4><strong>Gita, </strong><i>Web Designer</i></h4>-->
+            <!--                    </div>-->
+            <!--                    <div class="client-face">-->
+            <!--                        <img src="img/client-face2.png" alt="">-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--                <div class="item">-->
+            <!--                    <div class="client-text">                                -->
+            <!--                        <p>Jobify offer an amazing service and I couldn’t be happier! They -->
+            <!--                        are dedicated to helping recruiters find great candidates, wonderful service!</p>-->
+            <!--                        <h4><strong>Gita , </strong><i>Web Designer</i></h4>-->
+            <!--                    </div>-->
+            <!--                    <div class="client-face">-->
+            <!--                        <img src="img/client-face1.png" alt="">-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--                <div class="item">-->
+            <!--                    <div class="client-text">                                -->
+            <!--                        <p>Jobify offer an amazing service and I couldn’t be happier! They -->
+            <!--                        are dedicated to helping recruiters find great candidates, wonderful service!</p>-->
+            <!--                        <h4><strong>Gita, </strong><i>Web Designer</i></h4>-->
+            <!--                    </div>-->
+            <!--                    <div class="client-face">-->
+            <!--                        <img src="img/client-face2.png" alt="">-->
+            <!--                    </div>-->
+            <!--                </div-->
+            <!--            </div>-->
+            <!--        </div>-->
+            <!--    </div>-->
+            <!--</div>-->
+
+        </div>
+        <div class="footer-area">
+            <div class="container">
+                <div class="row footer">
+                    <div class="col-md-4">
+                        <div class="single-footer"> <href="home.html">
+                        <!--img src="img/inveniologov2.png" alt='INVENIOFORCE"'> -->
+                            <!--h4>InvenioForce</h4>
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati architecto quaerat facere blanditiis tempora sequi nulla accusamus, possimus cum necessitatibus suscipit quia autem mollitia, similique quisquam molestias. Vel unde, blanditiis.</p>-->
+                        </div>
+                    </div>
+                    <!--<div class="col-md-4">-->
+                    <!--    <div class="single-footer">-->
+                    <!--        <h4>Twitter update</h4>-->
+                    <!--        <div class="twitter-updates">-->
+                    <!--            <div class="single-tweets">-->
+                    <!--                <h5>ABOUT 9 HOURS</h5>-->
+                    <!--                <p><strong>AGOMeet Aldous</strong> - a Brave New World for #rails with more cohesion, less coupling and greater dev speed <a href="http://t.co/rsekglotzs">http://t.co/rsekglotzs</a></p>-->
+                    <!--            </div>-->
+                    <!--            <div class="single-tweets">-->
+                    <!--                <h5>ABOUT 9 HOURS</h5>-->
+                    <!--                <p><strong>AGOMeet Aldous</strong> - a Brave New World for #rails with more cohesion, less coupling and greater dev speed <a href="http://t.co/rsekglotzs">http://t.co/rsekglotzs</a></p>-->
+                    <!--            </div>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <div class="col-left-5">
+                        <div class="single-footer">
+                            <div class="footer-links">
+                                <ul class="list-unstyled">
+                                    <li><a href="home.html">Home</a><span style="padding-left:38px;"></span>
+                                    <a href="about.html">About Us</a><span style="padding-left:38px;"></span>
+                                    <a href="canidates.html">Find a Job!</a><span style="padding-left:38px;"></span>
+                                    <a href="clients.html">Hiring?</a><span style="padding-left:38px;"></span>
+                                    <a href="contact.html">Contact Us</a></li>
+                                    <li><small>© 2015 Invenio Software Solutions LLC.</small></li>
+                                     <!--<li><a href="">Customers Testimonials</a></li>-->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		
+		
+		
+		
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/wow.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/emailer.js"></script>
+        <script src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
+         <script src="js/date.js"></script>
+      <script type="text/javascript" src="bower_components/bootstrapValidator/dist/js/bootstrapValidator.min.js"></script>
+
+         
+         <script>
+        
+$(document).ready(function() {
+     $('#commentForm').bootstrapValidator({
+        message: 'This value is not valid',
+        feedbackIcons: {
+            valid: 'glyphicon glyphicon-ok',
+            invalid: 'glyphicon glyphicon-remove',
+            validating: 'glyphicon glyphicon-refresh'
+        },
+        fields: {
+           
+            name: {
+               
+                validators: {
+                    
+                    notEmpty: {
+                        message: 'Your name is required'
+                    }
+                }
+            },
+            email: {
+                validators: {
+                    notEmpty: {
+                        message: 'Your email is required'
+                    }
+                }
+            },
+            
+        }
+    })
+   
+
+});
+
+
+</script>
+        
+    </body>
+</html>
